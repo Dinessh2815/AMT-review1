@@ -8,35 +8,34 @@ namespace ConsoleApp1
         {
             int[] arr = { 2, 4, 5, 7, 9, 11 };
             int count = 0;
-            bool isPrime = false;
 
             for (int i = 0; i < arr.Length; i++)
             {
-                
-                for (int j = 2; j < i; j++)
-                {
-                    if (arr[i] != arr[j])
-                    {
-                        if (arr[i] % arr[j] != 0)
-                        {
-                            isPrime = true;
+                bool isPrime = true;
 
-                        }
-                        else
+                if (arr[i] <= 1)
+                {
+                    isPrime = false;
+                }
+                else
+                {
+                    for (int j = 2; j * j <= arr[i]; j++)
+                    {
+                        if (arr[i] % j == 0)
                         {
                             isPrime = false;
                             break;
-
-
-                        }
-                        if (isPrime)
-                        {
-                            count++;
                         }
                     }
                 }
+
+                if (isPrime)
+                {
+                    count++;
+                }
             }
-              Console.WriteLine($"The number of prime numbers are : {count}");
+
+            Console.WriteLine($"The number of prime numbers are : {count}");
         }
     }
 }
