@@ -7,7 +7,7 @@
             int[] arr = {-2, 1, -3, 4, -1, 2, 1, -5, 4 };
             int currentSum = 0;
             int testRevert = 0;
-            int maxSum = int.MinValue;
+            int maxSum = 0;
 
             for (int i = 0; i < arr.Length; i++)
             {
