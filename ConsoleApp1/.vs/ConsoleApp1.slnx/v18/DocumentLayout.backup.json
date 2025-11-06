@@ -27,7 +27,7 @@
           ]
         },
         {
-          "DockedHeight": 339,
+          "DockedHeight": 239,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -42,14 +42,10 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Windows 11\\Documents\\Learning\\AMT-reviews\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T06:50:22.807Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
@@ -58,7 +54,7 @@
           ]
         },
         {
-          "DockedHeight": 19,
+          "DockedHeight": 119,
           "SelectedChildIndex": -1,
           "Children": [
             {
@@ -68,6 +64,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }
